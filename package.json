@@ -1,9 +1,10 @@
 {
-  "name": "@cgonzalezp91/fetchcall",
-  "version": "1.0.0",
+  "name": "cgfetchcall",
+  "version": "1.0.1",
   "description": "Module for the interaction with api fetch and error handling with the use of sweetalert for the messages",
   "main": "index.js",
   "scripts": {
+    "babel": "babel index.js --presets es2017 --out-file index-compiled.js",
     "lint": "standard"
   },
   "repository": {
@@ -23,5 +24,9 @@
   "homepage": "https://github.com/cgonzalezp91/fetchcall#readme",
   "dependencies": {
     "sweetalert": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1"
   }
 }
