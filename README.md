@@ -25,7 +25,7 @@ npm install fetchcall
 
 After installation just import the module with
 ```
-import fetchcall from fetchcall
+import fetchcall from 'fetchcall'
 ```
 fetchcall receive 2 parameters url and data.
  * url: Is the url of the api you what to call for example `const url = https://swapi.co/api/people/1/` 
