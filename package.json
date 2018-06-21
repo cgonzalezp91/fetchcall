@@ -1,0 +1,27 @@
+{
+  "name": "fetchcall",
+  "version": "1.0.0",
+  "description": "Module for the interaction with api fetch and error handling with the use of sweetalert for the messages",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgonzalezp91/fetchcall.git"
+  },
+  "keywords": [
+    "api",
+    "fetch",
+    "fetch"
+  ],
+  "author": "Carlos Gonzalez (https://www.linkedin.com/in/cgonzalezp91/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgonzalezp91/fetchcall/issues"
+  },
+  "homepage": "https://github.com/cgonzalezp91/fetchcall#readme",
+  "dependencies": {
+    "sweetalert": "^2.1.0"
+  }
+}
